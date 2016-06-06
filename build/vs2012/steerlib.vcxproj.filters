@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="steerlib">
+      <UniqueIdentifier>{1F0245F9-1EE5-D442-9EC4-59FDB7974CB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include">
+      <UniqueIdentifier>{FCCF215F-D225-B74F-B33C-411B4DB91FF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\benchmarking">
+      <UniqueIdentifier>{67FF376B-E2A9-D247-800A-5B38F6135852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\griddatabase">
+      <UniqueIdentifier>{35F3E763-67F9-984E-B1EA-40C1DAF3362F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\interfaces">
+      <UniqueIdentifier>{15F671AE-F34C-F045-986C-F297C19DB823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\modules">
+      <UniqueIdentifier>{3E68E535-245D-8145-A133-CF6825C51D8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\obstacles">
+      <UniqueIdentifier>{5940A297-7233-1F4C-A5D9-3EC9EE297431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\planning">
+      <UniqueIdentifier>{28AEABF2-1775-2F40-AFE5-5D920D9F72CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\recfileio">
+      <UniqueIdentifier>{261E6CD3-1A52-9540-9298-57C87886AD14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\simulation">
+      <UniqueIdentifier>{76BF36DC-990B-274F-B6E4-14F2234579DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\testcaseio">
+      <UniqueIdentifier>{97439936-ED76-F849-897E-FE3EDD2F63EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\include\util">
+      <UniqueIdentifier>{52CE8FB7-917E-144A-AA26-CB8AFE8361F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steerlib\src">
+      <UniqueIdentifier>{25A98E8F-1D81-E646-BB77-E93488064631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{995ADF77-31A9-7040-AF0F-BDAB878A7EB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\tinyxml">
+      <UniqueIdentifier>{101534CC-D436-B44F-9654-8FACA5032991}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\steerlib\include\Globals.h">
+      <Filter>steerlib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\SimulationPlugin.h">
+      <Filter>steerlib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\SteerLib.h">
+      <Filter>steerlib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\SteerSimPlugin.h">
+      <Filter>steerlib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\Util.h">
+      <Filter>steerlib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\AccelerationEfficiencyTechnique.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\AgentMetricsCollector.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\BayesianFilter.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\BenchmarkEngine.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\BenchmarkEnginePrivate.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\CompositeTechnique01.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\CompositeTechnique02.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\CompositeTechniqueEntropy.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\CompositeTechniqueGraph.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\CompositeTechniquePLE.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\EnergyEfficiencyTechnique.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\MetricsData.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\benchmarking\SimulationMetricsCollector.h">
+      <Filter>steerlib\include\benchmarking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\griddatabase\GridCell.h">
+      <Filter>steerlib\include\griddatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\griddatabase\GridDatabase2D.h">
+      <Filter>steerlib\include\griddatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\griddatabase\GridDatabase2DPrivate.h">
+      <Filter>steerlib\include\griddatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\griddatabase\GridDatabasePlanningDomain.h">
+      <Filter>steerlib\include\griddatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\AgentInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\BenchmarkTechniqueInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\EngineControllerInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\EngineInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\ModuleInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\ObstacleInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\PlanningDomainInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\PlanningDomainModuleInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\SpatialDataBaseInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\SpatialDatabaseItem.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\interfaces\SpatialDataBaseModuleInterface.h">
+      <Filter>steerlib\include\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\modules\DummyAIModule.h">
+      <Filter>steerlib\include\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\modules\MetricsCollectorModule.h">
+      <Filter>steerlib\include\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\modules\RecFilePlayerModule.h">
+      <Filter>steerlib\include\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\modules\SimulationRecorderModule.h">
+      <Filter>steerlib\include\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\modules\SteerBenchModule.h">
+      <Filter>steerlib\include\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\modules\SteerBugModule.h">
+      <Filter>steerlib\include\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\modules\TestCasePlayerModule.h">
+      <Filter>steerlib\include\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\obstacles\BoxObstacle.h">
+      <Filter>steerlib\include\obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\obstacles\CircleObstacle.h">
+      <Filter>steerlib\include\obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\obstacles\OrientedBoxObstacle.h">
+      <Filter>steerlib\include\obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\obstacles\OrientedWallObstacle.h">
+      <Filter>steerlib\include\obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\obstacles\PolygonObstacle.h">
+      <Filter>steerlib\include\obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\planning\BestFirstSearchPlanner.h">
+      <Filter>steerlib\include\planning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\recfileio\RecFileIO.h">
+      <Filter>steerlib\include\recfileio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\recfileio\RecFileIOPrivate.h">
+      <Filter>steerlib\include\recfileio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\simulation\Camera.h">
+      <Filter>steerlib\include\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\simulation\Clock.h">
+      <Filter>steerlib\include\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\simulation\SimulationEngine.h">
+      <Filter>steerlib\include\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\simulation\SimulationOptions.h">
+      <Filter>steerlib\include\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\simulation\SteeringCommand.h">
+      <Filter>steerlib\include\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\testcaseio\AgentInitialConditions.h">
+      <Filter>steerlib\include\testcaseio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\testcaseio\Behaviour.h">
+      <Filter>steerlib\include\testcaseio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\testcaseio\BehaviourParameter.h">
+      <Filter>steerlib\include\testcaseio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\testcaseio\ObstacleInitialConditions.h">
+      <Filter>steerlib\include\testcaseio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\testcaseio\TestCaseIO.h">
+      <Filter>steerlib\include\testcaseio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\testcaseio\TestCaseIOPrivate.h">
+      <Filter>steerlib\include\testcaseio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\Color.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\CommandLineParser.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\dmatrix.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\DrawLib.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\DynamicLibrary.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\FrameSaver.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\GenericException.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\Geometry.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\HighResCounter.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\MemoryMapper.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\Misc.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\Mutex.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\PerformanceProfiler.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\StateMachine.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\ThreadedTaskManager.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\XMLParser.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\steerlib\include\util\XMLParserPrivate.h">
+      <Filter>steerlib\include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\tinyxml\ticpp.h">
+      <Filter>external\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\tinyxml\ticpprc.h">
+      <Filter>external\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\tinyxml\tinystr.h">
+      <Filter>external\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\tinyxml\tinyxml.h">
+      <Filter>external\tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\steerlib\src\AgentInterface.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\AgentMetricsCollector.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\BehaviorParameter.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\Behaviour.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\BenchmarkEngine.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\BoxObstacle.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\Camera.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\CircleObstacle.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\Clock.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\CommandLineParser.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\CompositeTechnique01.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\CompositeTechnique02.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\CompositeTechniqueEntropy.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\CompositeTechniqueGraph.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\CompositeTechniquePLE.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\DrawLib.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\DynamicLibrary.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\FrameSaver.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\GridDatabase2D.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\GridDatabasePlanningDomain.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\HighResCounter.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\MemoryMapper.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\Misc.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\OrientedBoxObstacle.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\OrientedWallObstacle.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\PerformanceProfiler.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\PolygonObstacle.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\RecFilePlayerModule.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\RecFileReader.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\RecFileWriter.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\SimulationEngine.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\SimulationMetricsCollector.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\SimulationOptions.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\SimulationRecorderModule.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\StateMachine.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\SteeringCommand.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\TestCasePlayerModule.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\TestCaseReader.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\TestCaseReaderPrivate.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\TestCaseWriter.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\ThreadedTaskManager.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\steerlib\src\XMLParser.cpp">
+      <Filter>steerlib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\tinyxml\ticpp.cpp">
+      <Filter>external\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\tinyxml\tinystr.cpp">
+      <Filter>external\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\tinyxml\tinyxml.cpp">
+      <Filter>external\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\tinyxml\tinyxmlerror.cpp">
+      <Filter>external\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\tinyxml\tinyxmlparser.cpp">
+      <Filter>external\tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

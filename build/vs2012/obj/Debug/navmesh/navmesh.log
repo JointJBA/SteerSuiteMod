@@ -1,0 +1,742 @@
+﻿Build started 6/2/2016 1:11:32 AM.
+     1>Project "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\vs2012\navmesh.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\steerlib\include /I..\..\navmeshBuilder\include /I..\..\external\recastnavigation\Recast\Include /I..\..\external\recastnavigation\DebugUtils\Include /I..\..\external\recastnavigation\Detour\Include /I..\..\external\recastnavigation\DetourTileCache\Include /I..\..\external\recastnavigation\DetourCrowd\Include /I..\..\steersimlib\include /I..\..\external /I..\..\util\include /ZI /nologo /W4 /WX- /Od /Oy- /D ENABLE_GUI /D ENABLE_GLFW /D DEBUG /D WIN32 /D _WINDOWS /D _WINDLL /D _MBCS /Gm /EHsc /RTCc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"obj\Debug\navmesh\\" /Fd"..\bin\navmesh.pdb" /Gd /TP /analyze- /errorReport:prompt -std=c++0x -ggdb -fPIC ..\..\navmeshBuilder\src\ChunkyTriMesh.cpp ..\..\navmeshBuilder\src\ConvexVolumeTool.cpp ..\..\navmeshBuilder\src\CrowdTool.cpp ..\..\navmeshBuilder\src\imgui.cpp ..\..\navmeshBuilder\src\imguiRenderGL.cpp ..\..\navmeshBuilder\src\InputGeom.cpp ..\..\navmeshBuilder\src\Main.cpp ..\..\navmeshBuilder\src\Mesh.cpp ..\..\navmeshBuilder\src\MeshLoaderObj.cpp ..\..\navmeshBuilder\src\NavMeshModule.cpp ..\..\navmeshBuilder\src\NavMeshPruneTool.cpp ..\..\navmeshBuilder\src\NavMeshTesterTool.cpp ..\..\navmeshBuilder\src\OffMeshConnectionTool.cpp ..\..\navmeshBuilder\src\PerfTimer.cpp ..\..\navmeshBuilder\src\RecaseNavMeshPlanner.cpp ..\..\navmeshBuilder\src\Sample.cpp ..\..\navmeshBuilder\src\SampleInterfaces.cpp ..\..\navmeshBuilder\src\Sample_SoloMesh.cpp ..\..\navmeshBuilder\src\Timer.cpp ..\..\navmeshBuilder\src\ValueHistory.cpp
+     1>cl : Command line warning D9002: ignoring unknown option '-std=c++0x'
+     1>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+     1>cl : Command line warning D9002: ignoring unknown option '-fPIC'
+         ValueHistory.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\valuehistory.cpp(65): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\valuehistory.cpp(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\valuehistory.cpp(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+         Timer.cpp
+         Sample_SoloMesh.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\sample_solomesh.cpp(98): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         SampleInterfaces.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\sampleinterfaces.cpp(286): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\sampleinterfaces.cpp(295): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         Sample.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\sample.cpp(157): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+         RecaseNavMeshPlanner.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\genericexception.h(58): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'Util::GenericException'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+         c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\genericexception.h(57): note: see declaration of 'Util::GenericException'
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(36): warning C4100: 'subRoot': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(36): warning C4100: 'tag': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(38): warning C4100: 'subRoot': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(38): warning C4100: 'tag': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(40): warning C4100: 'indentation': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(40): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\statemachine.h(41): warning C4100: 'currentState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\statemachine.h(41): warning C4100: 'previousState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(96): warning C4100: 't': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(96): warning C4100: 'r': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(97): warning C4100: 'radius': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(97): warning C4100: 'p': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(98): warning C4100: 'radius': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(98): warning C4100: 'p': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(108): warning C4100: 'item': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(133): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(133): warning C4100: 'directiontToRightOfAgent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(106): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(126): warning C4100: 'action': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(126): warning C4100: 'key': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(128): warning C4100: 'deltaY': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(128): warning C4100: 'deltaX': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(129): warning C4100: 'action': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(129): warning C4100: 'button': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabase2d.h(208): warning C4100: 'exclude1': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabase2d.h(210): warning C4100: 'exclude1': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabaseplanningdomain.h(71): warning C4100: 'idealGoalState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(59): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(59): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(41): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(41): warning C4100: 'initialConditions': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(63): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(77): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(77): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(26): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(26): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(23): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(24): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(24): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(37): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(25): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(25): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(60): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(23): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\dmatrix.h(731): warning C4127: conditional expression is constant
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(20): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(59): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(66): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(66): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(86): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(86): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\metricscollectormodule.h(27): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\metricscollectormodule.h(55): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(23): warning C4100: 'initialConditions': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(36): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(43): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(43): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbugmodule.h(25): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbugmodule.h(25): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(512): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\recasenavmeshplanner.cpp(38): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\recasenavmeshplanner.cpp(30): warning C4100: '_maxNodesToExpandForSearch': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\recasenavmeshplanner.cpp(65): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\recasenavmeshplanner.cpp(57): warning C4100: '_maxNodesToExpandForSearch': unreferenced formal parameter
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(657): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(775): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,double&,double&,double&>(_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(775): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,double&,double&,double&>(_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(920): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,double&,double&,double&>(std::allocator<_Ty> &,_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<Util::Point>,
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(920): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,double&,double&,double&>(std::allocator<_Ty> &,_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<Util::Point>,
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(929): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Util::Point,double&,double&,double&>(_Ty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(929): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Util::Point,double&,double&,double&>(_Ty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(333): note: see reference to function template instantiation 'void std::vector<Util::Point,std::allocator<_Ty>>::emplace_back<double&,double&,double&>(double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(333): note: see reference to function template instantiation 'void std::vector<Util::Point,std::allocator<_Ty>>::emplace_back<double&,double&,double&>(double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         PerfTimer.cpp
+         OffMeshConnectionTool.cpp
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         NavMeshTesterTool.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshtestertool.cpp(1447): warning C4100: 'col': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshtestertool.cpp(1447): warning C4100: 'c': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshtestertool.cpp(1447): warning C4100: 'h': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshtestertool.cpp(1447): warning C4100: 'r': unreferenced formal parameter
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         NavMeshPruneTool.cpp
+         NavMeshModule.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\genericexception.h(58): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'Util::GenericException'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+         c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\genericexception.h(57): note: see declaration of 'Util::GenericException'
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(36): warning C4100: 'subRoot': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(36): warning C4100: 'tag': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(38): warning C4100: 'subRoot': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(38): warning C4100: 'tag': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(40): warning C4100: 'indentation': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(40): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\statemachine.h(41): warning C4100: 'currentState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\statemachine.h(41): warning C4100: 'previousState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(96): warning C4100: 't': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(96): warning C4100: 'r': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(97): warning C4100: 'radius': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(97): warning C4100: 'p': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(98): warning C4100: 'radius': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(98): warning C4100: 'p': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(108): warning C4100: 'item': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(133): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(133): warning C4100: 'directiontToRightOfAgent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(106): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(126): warning C4100: 'action': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(126): warning C4100: 'key': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(128): warning C4100: 'deltaY': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(128): warning C4100: 'deltaX': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(129): warning C4100: 'action': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(129): warning C4100: 'button': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabase2d.h(208): warning C4100: 'exclude1': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabase2d.h(210): warning C4100: 'exclude1': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabaseplanningdomain.h(71): warning C4100: 'idealGoalState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(59): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(59): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(41): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(41): warning C4100: 'initialConditions': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(63): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(77): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(77): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(26): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(26): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(23): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(24): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(24): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(37): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(25): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(25): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(60): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(23): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\dmatrix.h(731): warning C4127: conditional expression is constant
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(20): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(59): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(66): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(66): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(86): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(86): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\metricscollectormodule.h(27): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\metricscollectormodule.h(55): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(23): warning C4100: 'initialConditions': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(36): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(43): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(43): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbugmodule.h(25): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbugmodule.h(25): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(512): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshmodule.cpp(94): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshmodule.cpp(94): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshmodule.cpp(94): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshmodule.cpp(99): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshmodule.cpp(99): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\navmeshmodule.cpp(99): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(657): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(775): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,double&,double&,double&>(_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(775): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,double&,double&,double&>(_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(920): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,double&,double&,double&>(std::allocator<_Ty> &,_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<Util::Point>,
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(920): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,double&,double&,double&>(std::allocator<_Ty> &,_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<Util::Point>,
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(929): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Util::Point,double&,double&,double&>(_Ty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(929): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Util::Point,double&,double&,double&>(_Ty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(333): note: see reference to function template instantiation 'void std::vector<Util::Point,std::allocator<_Ty>>::emplace_back<double&,double&,double&>(double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(333): note: see reference to function template instantiation 'void std::vector<Util::Point,std::allocator<_Ty>>::emplace_back<double&,double&,double&>(double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         MeshLoaderObj.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\meshloaderobj.cpp(51): warning C4018: '>': signed/unsigned mismatch
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\meshloaderobj.cpp(70): warning C4018: '>': signed/unsigned mismatch
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\meshloaderobj.cpp(148): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\meshloaderobj.cpp(185): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\meshloaderobj.cpp(210): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+         Mesh.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(300): warning C4251: 'Mesh::m_heData': class 'std::vector<half_edge,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Mesh'
+                 with
+                 [
+                     _Ty=half_edge
+                 ]
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(301): warning C4251: 'Mesh::m_faceData': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Mesh'
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(302): warning C4251: 'Mesh::m_vertData': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Mesh'
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(304): warning C4251: 'Mesh::m_selected': class 'std::vector<bool,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Mesh'
+                 with
+                 [
+                     _Ty=bool
+                 ]
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(305): warning C4251: 'Mesh::m_vertices': class 'std::vector<Util::Point,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Mesh'
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(512): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(50): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(51): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(53): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(54): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(280): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(458): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(943): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1052): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1155): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1268): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1445): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1462): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1471): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1478): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1485): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1499): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\mesh.cpp(1537): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(657): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(775): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,double&,double&,double&>(_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(775): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,double&,double&,double&>(_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(920): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,double&,double&,double&>(std::allocator<_Ty> &,_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<Util::Point>,
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(920): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,double&,double&,double&>(std::allocator<_Ty> &,_Objty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<Util::Point>,
+                     _Ty=Util::Point,
+                     _Objty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(929): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Util::Point,double&,double&,double&>(_Ty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(929): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Util::Point,double&,double&,double&>(_Ty *,double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(333): note: see reference to function template instantiation 'void std::vector<Util::Point,std::allocator<_Ty>>::emplace_back<double&,double&,double&>(double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+         c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\mesh.h(333): note: see reference to function template instantiation 'void std::vector<Util::Point,std::allocator<_Ty>>::emplace_back<double&,double&,double&>(double &,double &,double &)' being compiled
+                 with
+                 [
+                     _Ty=Util::Point
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         Main.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\genericexception.h(58): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'Util::GenericException'
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+         c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\genericexception.h(57): note: see declaration of 'Util::GenericException'
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(36): warning C4100: 'subRoot': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(36): warning C4100: 'tag': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(38): warning C4100: 'subRoot': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(38): warning C4100: 'tag': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(40): warning C4100: 'indentation': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\xmlparser.h(40): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\statemachine.h(41): warning C4100: 'currentState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\statemachine.h(41): warning C4100: 'previousState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\obstacleinterface.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(96): warning C4100: 't': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(96): warning C4100: 'r': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(97): warning C4100: 'radius': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(97): warning C4100: 'p': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(98): warning C4100: 'radius': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\testcaseio\testcaseioprivate.h(98): warning C4100: 'p': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(108): warning C4100: 'item': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(133): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(133): warning C4100: 'directiontToRightOfAgent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(106): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(122): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(124): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(126): warning C4100: 'action': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(126): warning C4100: 'key': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(128): warning C4100: 'deltaY': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(128): warning C4100: 'deltaX': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(129): warning C4100: 'action': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\moduleinterface.h(129): warning C4100: 'button': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabase2d.h(208): warning C4100: 'exclude1': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabase2d.h(210): warning C4100: 'exclude1': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\griddatabase\griddatabaseplanningdomain.h(71): warning C4100: 'idealGoalState': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(59): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(59): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'out': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\benchmarktechniqueinterface.h(61): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(41): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(41): warning C4100: 'initialConditions': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(44): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(63): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(77): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\benchmarkengineprivate.h(77): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(26): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(26): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(28): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique01.h(46): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(23): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechnique02.h(31): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(24): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(24): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(26): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(29): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(37): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\energyefficiencytechnique.h(41): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(25): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(25): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(30): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(60): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'scores': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\accelerationefficiencytechnique.h(64): warning C4100: 'agentIndex': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(23): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(27): warning C4100: 'simulationMetrics': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'timePassedSinceLastFrame': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'currentTimeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\benchmarking\compositetechniqueple.h(28): warning C4100: 'engineInterface': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\util\dmatrix.h(731): warning C4127: conditional expression is constant
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(20): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(36): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(59): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(66): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(66): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(86): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\dummyaimodule.h(86): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\metricscollectormodule.h(27): warning C4100: 'options': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\metricscollectormodule.h(55): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(23): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(23): warning C4100: 'initialConditions': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(24): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(36): warning C4100: 'newGoal': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(43): warning C4100: 'rangeSq': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\recfileplayermodule.h(43): warning C4100: 'agent': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'frameNumber': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'dt': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbenchmodule.h(63): warning C4100: 'timeStamp': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbugmodule.h(25): warning C4100: 'engineInfo': unreferenced formal parameter
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\modules\steerbugmodule.h(25): warning C4100: 'options': unreferenced formal parameter
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         InputGeom.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\inputgeom.cpp(222): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\inputgeom.cpp(279): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\inputgeom.cpp(293): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\inputgeom.cpp(298): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\inputgeom.cpp(313): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         imguiRenderGL.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\stb_truetype.h(2004): warning C4456: declaration of 'slen' hides previous local declaration
+         c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\stb_truetype.h(1997): note: see declaration of 'slen'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\stb_truetype.h(2004): warning C4456: declaration of 'off' hides previous local declaration
+         c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\include\stb_truetype.h(1997): note: see declaration of 'off'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\imguirendergl.cpp(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         imgui.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\imgui.cpp(614): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\imgui.cpp(616): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+         CrowdTool.cpp
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\crowdtool.cpp(559): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\crowdtool.cpp(582): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>c:\users\belal\downloads\release-master (1)\release-master\navmeshbuilder\src\crowdtool.cpp(611): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1952): note: see declaration of '_snprintf'
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(637): warning C4505: 'glutInit_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(639): warning C4505: 'glutCreateWindow_ATEXIT_HACK': unreferenced local function has been removed
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\freeglut_std.h(641): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+         ConvexVolumeTool.cpp
+         ChunkyTriMesh.cpp
+         Generating Code...
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(111): warning C4702: unreachable code
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(111): warning C4702: unreachable code
+     1>c:\users\belal\downloads\release-master (1)\release-master\steerlib\include\interfaces\agentinterface.h(111): warning C4702: unreachable code
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\navmesh.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\bin\navmesh.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\navmesh.lib" /MACHINE:X86 /DLL obj\Debug\navmesh\ChunkyTriMesh.obj
+         obj\Debug\navmesh\ConvexVolumeTool.obj
+         obj\Debug\navmesh\CrowdTool.obj
+         obj\Debug\navmesh\imgui.obj
+         obj\Debug\navmesh\imguiRenderGL.obj
+         obj\Debug\navmesh\InputGeom.obj
+         obj\Debug\navmesh\Main.obj
+         obj\Debug\navmesh\Mesh.obj
+         obj\Debug\navmesh\MeshLoaderObj.obj
+         obj\Debug\navmesh\NavMeshModule.obj
+         obj\Debug\navmesh\NavMeshPruneTool.obj
+         obj\Debug\navmesh\NavMeshTesterTool.obj
+         obj\Debug\navmesh\OffMeshConnectionTool.obj
+         obj\Debug\navmesh\PerfTimer.obj
+         obj\Debug\navmesh\RecaseNavMeshPlanner.obj
+         obj\Debug\navmesh\Sample.obj
+         obj\Debug\navmesh\SampleInterfaces.obj
+         obj\Debug\navmesh\Sample_SoloMesh.obj
+         obj\Debug\navmesh\Timer.obj
+         obj\Debug\navmesh\ValueHistory.obj
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\steerlib.lib"
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\steersimlib.lib"
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\util.lib"
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\Recast.lib"
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\Detour.lib"
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\DebugUtils.lib"
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\DetourCrowd.lib"
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\steerlib.lib'
+     1>Done Building Project "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\vs2012\navmesh.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:54.07

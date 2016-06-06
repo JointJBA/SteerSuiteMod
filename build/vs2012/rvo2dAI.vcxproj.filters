@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="rvo2AI">
+      <UniqueIdentifier>{99AC7F50-E87D-A04A-A54A-5BE177AC2A2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rvo2AI\include">
+      <UniqueIdentifier>{DF01A630-B13F-9441-8B12-EA64B2188D6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rvo2AI\src">
+      <UniqueIdentifier>{A59B050C-9EA4-6946-88CA-C17D1F3BECA6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\rvo2AI\include\API.h">
+      <Filter>rvo2AI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rvo2AI\include\RVO2DAgent.h">
+      <Filter>rvo2AI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rvo2AI\include\RVO2DAIModule.h">
+      <Filter>rvo2AI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rvo2AI\include\RVO2D_Parameters.h">
+      <Filter>rvo2AI\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\rvo2AI\src\RVO2DAgent.cpp">
+      <Filter>rvo2AI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rvo2AI\src\RVO2DAIModule.cpp">
+      <Filter>rvo2AI\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

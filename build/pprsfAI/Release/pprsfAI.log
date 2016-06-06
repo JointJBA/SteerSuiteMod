@@ -1,0 +1,15 @@
+﻿Build started 6/6/2016 12:23:43 PM.
+     1>Project "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\pprsfAI\pprsfAI.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\vs2012\Release\pprsfAI.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\vs2012\Release\pprsfAI.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\vs2012\Release\pprsfAI.lib" /MACHINE:X86 /SAFESEH /DLL Release\PPRSFAgent.obj
+         Release\PPRSFAIModule.obj
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\steerlib.lib"
+         "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\bin\util.lib"
+         Generating code
+         Finished generating code
+         pprsfAI.vcxproj -> C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\vs2012\Release\pprsfAI.dll
+     1>Done Building Project "C:\Users\Belal\Downloads\Release-master (1)\Release-master\build\pprsfAI\pprsfAI.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.63
